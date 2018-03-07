@@ -1,0 +1,20 @@
+{
+    "name": "idct/limited-objects-cache",
+    "description": "Simple ArrayAccess objects' cache with a lookup table in memory and fallback to files with serialized data.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bartosz Pachołek",
+            "email": "bartosz@idct.pl"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ucif\\": "src/"
+        }
+    }
+}
