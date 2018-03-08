@@ -4,7 +4,7 @@ idct/limited-objects-cache
 Simple ArrayAccess objects' cache with a lookup table in memory and fallback to
 files with serialized data.
 
-h1. Sample
+# Sample
 
 The sample below creates a cache for 20 objects in memory. When 20 are hit then
 first objects are pushed to files, yet attempt to retrieve a key which has been 
@@ -24,6 +24,6 @@ var_dump($cache['id_1']); //should be from disk
 var_dump($cache['id_1']); //should be from mem (now)
 ```
 
-h1. Contribution
+# Contribution
 
 If you have any suggestions please create an issue or pull request.
